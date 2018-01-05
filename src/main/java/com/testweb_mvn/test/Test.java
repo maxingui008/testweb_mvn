@@ -8,7 +8,7 @@ public class Test {
 	public void testChild() {
 		Child child = new Child("C");
 		
-//		System.out.println(child.getName());
-//		System.out.println(child.getFather().getName());
+		System.out.println(child.getName());
+		System.out.println(child.getFather().getName());
 	}
 }
